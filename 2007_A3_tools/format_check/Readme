@@ -1,0 +1,15 @@
+  The format_check program will check the correctness of your output struct
+file. Please use 'make' to compile the program as follows:
+
+	make
+
+  The Makefile is using 'gcc' to compile format_check.c. If you use other
+compiler, ex. 'cc', rather than 'gcc', use the instruction as follows:
+
+	make CC=cc
+
+  When you have compiled the program, use the following instruction to read the
+manu for this program:
+
+	./format_check
+	or ./format -help
